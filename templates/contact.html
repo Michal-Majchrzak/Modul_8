@@ -1,0 +1,18 @@
+{% extends "frame.html" %}
+
+{% block head %}
+<title>Kontakt</title>
+{% endblock %}
+
+{% block content %}
+<h1>Kontakt</h1>
+<ul>
+    <li>email : michal.majchrzak@domain.com</li>
+    <li>telefon : (+48) 123 456 789</li>
+</ul>
+<h2>Wyślij wiadomość</h2>
+<form action="" method="POST">
+    <textarea name="message" placeholder="Tutaj wpisz wiadomość"></textarea>
+    <input type="submit" value="Wyślij">
+</form>
+{% endblock %}
